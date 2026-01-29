@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-float64-base-identity",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Evaluate the identity function for a double-precision complex floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -42,9 +42,9 @@
   "dependencies": {
     "@stdlib/complex-float64-ctor": "^0.0.3",
     "@stdlib/complex-float64-reim": "^0.1.2",
-    "@stdlib/math-base-napi-unary": "^0.2.3",
+    "@stdlib/math-base-napi-unary": "^0.2.4",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/complex-float64-imag": "^0.1.1",
@@ -90,7 +90,6 @@
     "complex",
     "cmplx"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
