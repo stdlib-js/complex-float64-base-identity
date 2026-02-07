@@ -65,6 +65,11 @@ for all `z`.
 ## Usage
 
 ```javascript
+import cidentity from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-identity@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-float64-base-identity/tags). For example,
+
+```javascript
 import cidentity from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-identity@v0.1.1-deno/mod.js';
 ```
 
@@ -94,7 +99,7 @@ var v = cidentity( new Complex128( -1.0, 2.0 ) );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
-import cidentity from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-identity@v0.1.1-deno/mod.js';
+import cidentity from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-base-identity@deno/mod.js';
 
 var z;
 var i;
