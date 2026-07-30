@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,15 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MAIN //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Complex128 } from '@stdlib/types/complex';
 
 /**
-* Evaluates the identity function for a double-precision complex floating-point number.
+* Evaluates the identity function for double-precision complex floating-point number.
 *
-* @param {Complex128} z - input value
-* @returns {Complex128} input value
+* @param z - input value
+* @returns input value
 *
 * @example
 * var Complex128 = require( '@stdlib/complex-float64-ctor' );
@@ -32,11 +34,9 @@
 * var v = cidentity( new Complex128( -1.0, 2.0 ) );
 * // returns <Complex128>[ -1.0, 2.0 ]
 */
-function cidentity( z ) {
-	return z;
-}
+declare function cidentity( z: Complex128 ): Complex128;
 
 
 // EXPORTS //
 
-module.exports = cidentity;
+export = cidentity;
